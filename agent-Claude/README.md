@@ -33,7 +33,6 @@ List what needs to be installed or configured before running:
 
 ```bash
 # Any environment variables or config files needed
-VARIABLE_NAME=value
 ```
 
 ### Run
@@ -50,14 +49,6 @@ Add a screenshot, screen recording link, or example input/output here.
 
 ---
 
-## Team
-
-| Name | GitHub |
-|------|--------|
-| Person E | @username |
-| Person F | @username |
-
----
 
 ## Lessons Learned
 
