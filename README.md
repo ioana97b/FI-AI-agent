@@ -10,23 +10,12 @@ Comparison of 3 approaches to building an AI agent, developed in parallel by sep
 
 | Folder | Approach | Team |
 |--------|----------|------|
-| `agent-1/` | Joule Web | Ionela, Silvia |
-| `agent-2/` | Joule CLI | Andrei, Ioana |
-| `agent-3/` | Claude Code | Adrian, Laura |
+| `agent-JouleWeb/` | Joule Web | Ionela, Silvia |
+| `agent-JouleCLI/` | Joule CLI | Andrei, Ioana |
+| `agent-Claude/` | Claude Code | Adrian, Laura |
 
 ---
 
-## Repository Structure
-
-```
-FI-AI-agent/
-├── README.md
-├── agent-1/        # Joule Web
-├── agent-2/        # Joule CLI
-└── agent-3/        # Claude Code
-```
-
----
 
 ## Git Workflow
 
@@ -35,11 +24,11 @@ FI-AI-agent/
 | Branch | Purpose |
 |--------|---------|
 | `main` | Stable, reviewed code only — no direct commits |
-| `agent-1` | Integration branch for Joule Web pair |
-| `agent-2` | Integration branch for Joule CLI pair |
-| `agent-3` | Integration branch for Claude Code pair |
+| `agent-JouleWeb` | Integration branch for Joule Web |
+| `agent-JouleCLI` | Integration branch for Joule CLI |
+| `agent-Claude` | Integration branch for Claude Code |
 
-### Day-to-day for each person
+###
 
 1. Always branch off your pair's branch (not `main`):
    ```bash
@@ -80,6 +69,3 @@ git checkout agent-1   # or agent-2 / agent-3
 
 ---
 
-## Questions?
-
-Reach out to the team leader or open a GitHub Issue in this repo.
