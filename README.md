@@ -24,9 +24,9 @@ Comparison of 3 approaches to building an AI agent, developed in parallel by sep
 | Branch | Purpose |
 |--------|---------|
 | `main` | Stable, reviewed code only — no direct commits |
-| `agent-1` | Integration branch for Joule Web |
-| `agent-2` | Integration branch for Joule CLI |
-| `agent-3` | Integration branch for Claude Code |
+| `agent-JouleWeb` | Integration branch for Joule Web |
+| `agent-JouleCLI` | Integration branch for Joule CLI |
+| `agent-Claude` | Integration branch for Claude Code |
 
 ###
 
